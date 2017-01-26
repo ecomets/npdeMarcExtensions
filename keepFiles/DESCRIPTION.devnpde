@@ -1,0 +1,12 @@
+Package: devnpde
+Type: Package
+Title: Normalised Prediction Distribution Errors for Nonlinear Mixed-Effect Models
+Version: 3.0
+Date: 2017-01-03
+Author: Emmanuelle Comets, Karl Brendel, Thi Huyen Tram Nguyen, France Mentre.
+Maintainer: Emmanuelle Comets <emmanuelle.comets@inserm.fr>
+Description: Provides routines to compute normalised prediction distribution errors, a metric designed to evaluate non-linear mixed effect models such as those used in pharmacokinetics and pharmacodynamics.
+License: GPL (>= 2)
+LazyLoad: yes
+LazyData: yes
+Depends: methods, mclust
