@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578995107452.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "66|80|79|0|\n115|53|205|0|\n",
+    "hash" : "3503936044",
+    "id" : "EEBC0F6B",
+    "lastKnownWriteTime" : 1510241649,
+    "last_content_update" : 1578996611483,
+    "path" : "C:/Users/Marc/Desktop/npde30/R/plotNpde-unitFunctionsPI.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "8,74",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 20,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

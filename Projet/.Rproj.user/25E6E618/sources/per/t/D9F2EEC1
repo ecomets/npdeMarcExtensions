@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578995100525.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "2|102|69|0|\n73|80|119|0|\n123|99|144|0|\n148|127|224|0|\n",
+    "hash" : "3360913164",
+    "id" : "D9F2EEC1",
+    "lastKnownWriteTime" : 1552053293,
+    "last_content_update" : 1578995582471,
+    "path" : "C:/Users/Marc/Desktop/npde30/R/plotNpde-unitFunctionsAux.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "146,31",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 19,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

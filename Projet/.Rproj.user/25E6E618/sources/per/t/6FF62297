@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578995326729.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "0|44|22|0|\n24|123|99|0|\n101|92|131|0|\n133|86|175|0|\n177|136|224|0|\n226|130|461|0|\n227|53|233|1|\n",
+    "hash" : "1385640855",
+    "id" : "6FF62297",
+    "lastKnownWriteTime" : 1485784256,
+    "last_content_update" : 1578999326613,
+    "path" : "C:/Users/Marc/Desktop/npde30/R/plotNpde-meanProf.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "101,18",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 16,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

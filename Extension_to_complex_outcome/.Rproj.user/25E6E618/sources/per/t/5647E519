@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580659635685.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1978247948",
+    "id" : "5647E519",
+    "lastKnownWriteTime" : 1580659841,
+    "last_content_update" : 1580659841183,
+    "path" : "C:/Users/Marc/Desktop/npde30/Extension_to_complex_outcome/computation_npde_case1.2.R",
+    "project_path" : "computation_npde_case1.2.R",
+    "properties" : {
+        "cursorPosition" : "29,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
