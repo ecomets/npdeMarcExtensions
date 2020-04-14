@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578995083458.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "26|38|64|0|\n91|37|141|2|\n170|40|304|0|\n",
+    "hash" : "2529483743",
+    "id" : "8EADE8EF",
+    "lastKnownWriteTime" : 1485784256,
+    "last_content_update" : 1578995554136,
+    "path" : "C:/Users/Marc/Desktop/npde30/R/plotNpde-methods.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "144,82",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 17,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

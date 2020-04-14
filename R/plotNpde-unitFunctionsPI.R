@@ -79,9 +79,9 @@ compute.bands.true<-function(grp,sim.ypl,quant=c(0.025,0.5,0.975), alpha=0.95) {
 	return(list(binf=binf,bsup=bsup,bmed=bmed))
 }
 
-grp<-rep(1:10,10)
-sim.ypl<-data.frame(grp=grp,cens=rep(0,length(grp)),matrix(runif(10000),ncol=100))
-xsamp <- compute.bands.true(grp,sim.ypl)
+# grp<-rep(1:10,10)
+# sim.ypl<-data.frame(grp=grp,cens=rep(0,length(grp)),matrix(runif(10000),ncol=100))
+# xsamp <- compute.bands.true(grp,sim.ypl)
 
 ####################################################################################
 ######################	Binning to produce PI ################################

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578995068126.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4104845892",
+    "id" : "23FAB1EE",
+    "lastKnownWriteTime" : 1485784256,
+    "last_content_update" : 1578999145826,
+    "path" : "C:/Users/Marc/Desktop/npde30/R/compute_ploq.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "20,36",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

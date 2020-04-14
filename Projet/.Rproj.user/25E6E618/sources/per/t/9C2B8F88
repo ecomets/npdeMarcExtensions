@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578995185152.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "46|25|50|0|\n51|24|55|0|\n",
+    "hash" : "2000583523",
+    "id" : "9C2B8F88",
+    "lastKnownWriteTime" : 1490190067,
+    "last_content_update" : 1578998495595,
+    "path" : "C:/Users/Marc/Desktop/npde30/R/compute_pd.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "210,32",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

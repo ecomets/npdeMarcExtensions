@@ -168,6 +168,7 @@ aux.plot.dist<-function(plmat,plot.opt,dist.type="ecdf",distrib="norm",nrep=0, n
 		theo.samp<-yq
 		yq<-seq(1/ndat,1,length.out=ndat)
 	}
+	plmat$xpd=plmat$npde
 	ymat<-plmat[order(plmat$xpd),]
 	ymat<-cbind(ymat,ecdf=yq)
 	if(dist.type=="ecdf") {

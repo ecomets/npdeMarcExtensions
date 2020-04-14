@@ -1,0 +1,20 @@
+
+
+[LONGITUDINAL]
+input = {a,b,beta,lambda}
+
+EQUATION:
+k=1
+
+PSA = a*t+b
+
+h = k/lambda * (t/lambda)^(k-1) * exp(beta*PSA)
+H_0=0
+ddt_H = h
+S = exp(-H)
+
+comb = PSA * S
+
+DEFINITION:
+y = {distribution = normal, prediction = PSA, sd = 0}
+e = {type = event, maxEventNumber = 1, rightCensoringTime = 5, hazard = h}

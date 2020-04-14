@@ -89,7 +89,7 @@ computepd.omit<-function(npdeObject) {
     } else {
       idx<-which(!is.na(ycal) & ycal>0 & ycal<1)
       ycal[!is.na(ycal) & ycal==0]<-runif(sum(ycal==0),0,1/nrep)
-      ycal[!is.na(ycal) & ycal==1]<-runif(sum(ycal==0),1-1/nrep,1)
+      ycal[!is.na(ycal) & ycal==1]<-runif(sum(ycal==1),1-1/nrep,1)
       ycal[idx]<-ycal[idx]+runif(length(idx),0,1/nrep)
     }
     pd<-c(pd,ycal)

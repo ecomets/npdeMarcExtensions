@@ -353,7 +353,8 @@ gof.test.NpdeRes<-function(object, parametric=TRUE, ...) {
   }
   npde<-switch(which,npde=object@res$npde,pd=object@res$pd, npd=qnorm(object@res$pd))
   npde<-npde[object@not.miss] # Removing values for MDV=1 (pd, npde not computed)
-  verbose<-TRUE
+  verbose<-F
+  ## Changed here by Marc
   i1<-match("verbose",names(args1))
   if(!is.na(i1) && !is.na(as.logical(as.character(args1[[i1]])))) verbose<-as.logical(as.character(args1[[i1]]))
   args1<-match.call(expand.dots=TRUE)
@@ -379,30 +380,33 @@ gof.test.NpdeRes<-function(object, parametric=TRUE, ...) {
 #' @rdname gof.test
 #' @export
 
-printgoftest<-function(object, which="npde", ...) {
-  cat("---------------------------------------------\n")
-  cat("Distribution of",which,":\n")
-  cat("      nb of obs:",object$nobs,"\n")
-  cat("           mean=",format(object$mean,digits=4),"  (SE=",format(object$se.mean,digits=2),")\n")
-  cat("       variance=",format(object$var,digits=4),"  (SE=",format(object$se.var,digits=2),")\n")
-  cat("       skewness=",format(object$skewness,digits=4),"\n")
-  cat("       kurtosis=",format(object$kurtosis,digits=4),"\n")
-  cat("---------------------------------------------\n\n")
-  cat("Statistical tests\n")
-  for(i in 1:4) {
-    cat(names(object$p.value)[i],": ")
-    #if (myres[i]<1) 
-    cat(format(object$p.value[i],digits=3)) 
-    #else cat(myres[i])
-    if(as.numeric(object$p.value[i])<0.1 & as.numeric(object$p.value[i])>=0.05) 
-      cat(" .")
-    if(as.numeric(object$p.value[i])<0.05) cat(" *")
-    if(as.numeric(object$p.value[i])<0.01) cat("*")
-    if(as.numeric(object$p.value[i])<0.001) cat("*")
-    cat("\n")
+printgoftest<-function(object, which="npde",verbose=F,...) {
+  if(verbose){
+    cat("---------------------------------------------\n")
+    cat("Distribution of",which,":\n")
+    cat("      nb of obs:",object$nobs,"\n")
+    cat("           mean=",format(object$mean,digits=4),"  (SE=",format(object$se.mean,digits=2),")\n")
+    cat("       variance=",format(object$var,digits=4),"  (SE=",format(object$se.var,digits=2),")\n")
+    cat("       skewness=",format(object$skewness,digits=4),"\n")
+    cat("       kurtosis=",format(object$kurtosis,digits=4),"\n")
+    cat("---------------------------------------------\n\n")
+    cat("Statistical tests\n")
+    for(i in 1:4) {
+      cat(names(object$p.value)[i],": ")
+      #if (myres[i]<1) 
+      cat(format(object$p.value[i],digits=3)) 
+      #else cat(myres[i])
+      if(as.numeric(object$p.value[i])<0.1 & as.numeric(object$p.value[i])>=0.05) 
+        cat(" .")
+      if(as.numeric(object$p.value[i])<0.05) cat(" *")
+      if(as.numeric(object$p.value[i])<0.01) cat("*")
+      if(as.numeric(object$p.value[i])<0.001) cat("*")
+      cat("\n")
+    }
+    cat("---\n")
+    cat("Signif. codes: '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 \n")
+    cat("---------------------------------------------\n")
   }
-  cat("---\n")
-  cat("Signif. codes: '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 \n")
-  cat("---------------------------------------------\n")
+  
 }
 ##################################################################################

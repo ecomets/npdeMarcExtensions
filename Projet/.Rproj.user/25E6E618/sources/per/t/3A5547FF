@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578995103257.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "50|205|64|10|\n70|220|81|10|\n",
+    "hash" : "2109510859",
+    "id" : "3A5547FF",
+    "lastKnownWriteTime" : 1485784256,
+    "last_content_update" : 1578995626632,
+    "path" : "C:/Users/Marc/Desktop/npde30/R/qqplot.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "83,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 22,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

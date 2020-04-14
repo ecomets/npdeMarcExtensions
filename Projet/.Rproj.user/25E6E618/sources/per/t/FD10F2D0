@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578995089437.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "33|28|36|2|\n42|33|45|2|\n57|38|63|2|\n70|38|78|2|\n",
+    "hash" : "2645458423",
+    "id" : "FD10F2D0",
+    "lastKnownWriteTime" : 1485784256,
+    "last_content_update" : 1578995541404,
+    "path" : "C:/Users/Marc/Desktop/npde30/R/NpdeSimData.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 15,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578995089001.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "11|28|36|13|\n46|44|88|0|\n94|37|125|0|\n131|54|139|0|\n168|1|175|0|\n200|1|207|0|\n264|52|266|0|\n270|58|320|0|\n324|58|375|0|\n382|60|410|0|\n",
+    "hash" : "2727787970",
+    "id" : "88FD2D55",
+    "lastKnownWriteTime" : 1510928492,
+    "last_content_update" : 1578995534298,
+    "path" : "C:/Users/Marc/Desktop/npde30/R/NpdeRes-methods.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "411,82",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 14,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

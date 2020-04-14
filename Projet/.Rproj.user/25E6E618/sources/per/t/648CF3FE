@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578995100137.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "32|264|51|0|\n63|46|67|0|\n79|58|90|0|\n103|40|107|0|\n109|42|113|0|\n127|42|174|0|\n178|88|334|0|\n179|70|204|1|\n338|84|520|0|\n339|53|345|1|\n524|60|539|0|\n543|51|550|0|\n554|60|631|0|\n633|130|869|0|\n634|53|640|1|\n",
+    "hash" : "3993953198",
+    "id" : "648CF3FE",
+    "lastKnownWriteTime" : 1485784256,
+    "last_content_update" : 1578995573386,
+    "path" : "C:/Users/Marc/Desktop/npde30/R/plotNpde-plotFunctions.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "552,41",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 18,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

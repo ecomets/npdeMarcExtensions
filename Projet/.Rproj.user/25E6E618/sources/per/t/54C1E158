@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578995067695.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "33|48|111|0|\n",
+    "hash" : "3072131949",
+    "id" : "54C1E158",
+    "lastKnownWriteTime" : 1485784256,
+    "last_content_update" : 1578999406305,
+    "path" : "C:/Users/Marc/Desktop/npde30/R/compute_distribution.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "111,1",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

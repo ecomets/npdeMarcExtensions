@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578995072562.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "33|182|49|0|\n56|44|72|0|\n77|38|101|0|\n125|37|127|0|\n129|45|205|0|\n210|44|220|0|\n225|46|235|0|\n253|45|304|0|\n",
+    "hash" : "3405067875",
+    "id" : "D4F2B980",
+    "lastKnownWriteTime" : 1485784256,
+    "last_content_update" : 1578995414297,
+    "path" : "C:/Users/Marc/Desktop/npde30/R/npdeControl.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "2,59",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

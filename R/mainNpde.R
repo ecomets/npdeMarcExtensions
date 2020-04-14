@@ -161,6 +161,7 @@ autonpde<-function(namobs,namsim,iid,ix,iy,imdv=0,icens=0,icov=0, iipred=0,bools
     npde.graphs(xret)
   }
   invisible(xret)
+  
 }
 
 #' Interactive menu to set the options for the npde() function

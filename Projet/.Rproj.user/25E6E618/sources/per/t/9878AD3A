@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578995091854.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "49|28|54|2|\n60|75|92|2|\n106|38|115|2|\n122|38|133|2|\n",
+    "hash" : "3401449737",
+    "id" : "9878AD3A",
+    "lastKnownWriteTime" : 1485784256,
+    "last_content_update" : 1578995485713,
+    "path" : "C:/Users/Marc/Desktop/npde30/R/NpdeObject.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "95,82",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
